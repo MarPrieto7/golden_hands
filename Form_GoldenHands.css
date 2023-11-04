@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #deff9d;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(139, 137, 0);
+    text-align: center;
+}
+
+
+.form-register{
+    width: 400px;
+    background: #e5f38a;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(139, 137, 0);
+    box-shadow: 7px 13px 37px #777272;
+}
+
+.form-register h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.controls{
+    width: 100%;
+    background: #f3d28a;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #afc51f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(120, 139, 0);
+}
+
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.form-register a{
+    color: #91422b;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color: rgb(139, 134, 0);
+    text-decoration: underline;
+}
+
+.form-register .bottons {
+    width: 100%;
+    background: #c78943;
+    border: none;
+    padding: 12px;
+    color: #203048;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+/* Estilos para el contenedor del checkbox */
+.custom-checkbox {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px; /* Espacio a la izquierda del checkbox */
+    margin-bottom: 15px; /* Espacio entre checkboxes */
+    cursor: pointer;
+    font-size: 16px;
+}
+/* Estilos cuando el checkbox está marcado */
+.custom-checkbox input:checked ~ .checkmark {
+    background-color: #2196F3; /* Color de fondo cuando está marcado */
+    border: 1px solid #2196F3; /* Borde cuando está marcado */
+}
+
+/* Estilos del tick dentro del checkbox */
+.custom-checkbox .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Mostrar el tick cuando el checkbox está marcado */
+.custom-checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Estilos del tick (en este caso, un "✓") */
+.custom-checkbox .checkmark:after {
+    left: 9px;
+    top: 5px;
+    content: "✓"; /* Puedes personalizar esto como desees */
+    color: white; /* Color del tick */
+    font-size: 14px; /* Tamaño del tick */
+}
